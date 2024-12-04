@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/normalize.css" />
+    <link rel="stylesheet" href="./assets/styles/globals.css" />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+
+    <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Главная страница</title>
+  </head>
+  <body>
+    <main>
+      <section class="section section__main">
+        <div class="container">
+          <div class="header-row">
+            <img src="./assets/images/photo.jpg" alt="notebook" />
+            <div class="header-col">
+              <div class="header-text">
+                <h1>Биленко Ярослав</h1>
+                <p>
+                  фрилансер, веб-разработчик,<br />
+                  создание сайтов
+                </p>
+              </div>
+              <div class="header-buttons">
+                <a class="button button__primary" href="#portfolio"
+                  >Портфолио</a
+                >
+                <a class="button button__second" href="#contacts">Контакты</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section__portfolio" id="portfolio">
+        <h1>Портфолио</h1>
+        <div class="portfolio-col container">
+          <div class="portfolio-item">
+            <img
+              src="./assets/images/portfolio/1.jpg"
+              alt="portfolio item preview"
+            />
+            <a href="./projects/furniture-shop.html" class="link"
+              >Сайт магазина мебели</a
+            >
+          </div>
+          <div class="portfolio-item">
+            <img
+              src="./assets/images/portfolio/2.jpg"
+              alt="portfolio item preview"
+            />
+            <a href="./projects/travel-agency.html" class="link"
+              >Сайт туристического агентства</a
+            >
+          </div>
+          <div class="portfolio-item">
+            <img
+              src="./assets/images/portfolio/3.jpg"
+              alt="portfolio item preview"
+            />
+            <a href="./projects/residential-complex.html" class="link"
+              >Сайт жилого комплекса</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="section section__contacts" id="contacts">
+        <h1>Контакты</h1>
+        <div class="contacts-row container">
+          <div class="contact-card">
+            <img src="/assets/images/social/tg.svg" alt="tg" />
+            <p>Написать в Telegram</p>
+          </div>
+          <div class="contact-card">
+            <img src="/assets/images/social/wa.svg" alt="wa" />
+            <p>Отправить в WhatsApp</p>
+          </div>
+          <div class="contact-card">
+            <img src="/assets/images/social/vk.svg" alt="vk" />
+            <p>Связаться Вконтакте</p>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <p>© Имя Фамилия</p>
+        <p>HTML верстальщик, создание сайтов Донецк</p>
+        <a href="#">💻 Макет сверстан на курсе Интернет программирование</a>
+      </footer>
+    </main>
+  </body>
+</html>
